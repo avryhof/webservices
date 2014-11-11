@@ -1,9 +1,9 @@
 {
-    "name": "avryhof/auth",
-    "description": "Authentication class similar to Pear Auth",
+    "name": "avryhof/webservices",
+    "description": "Web service classes with a cURL base",
     "type": "library",
-    "keywords": ["auth","authentication","pear"],
-    "homepage": "https://github.com/avryhof/auth",
+    "keywords": ["meetup","issuu","curl","rest","api","client"],
+    "homepage": "https://github.com/avryhof/webservices",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +15,7 @@
         "php": ">=5.0.0"
     },
     "autoload": {
-        "classmap" : ["auth.php"]
+        "classmap" : ["curlclass.php","issuu.php","meetup.php"]
     },
     "include-path": [""]
 }
