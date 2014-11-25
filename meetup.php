@@ -1,4 +1,4 @@
-<?
+func<?
     class Meetup extends CurlClass {
         var $apikey;
         var $groupname;
@@ -43,6 +43,17 @@
 
             $retn = $this->call("events", array_merge($defaults));
             return $retn;
+        }
+
+        function getVenues() {
+
+        }
+
+        function createVenue() {
+
+        }
+
+        function createEvent() {
         }
 
         function call($function, $parameters = array()) {
